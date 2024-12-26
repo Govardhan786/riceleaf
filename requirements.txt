@@ -65,7 +65,7 @@ dill==0.3.6
 distlib==0.3.6
 distro==1.9.0
 dkimpy==1.1.4
-dlib @ file:///C:/Users/hp/Downloads/dlib-for-python3.10/dlib-for-python3.10/dlib-19.22.99-cp310-cp310-win_amd64.whl#sha256=f2181b6724669fb0147c9ebc326d72b94de41bced1812eff5df4b133b5d0b575
+dlib
 dm-tree==0.1.8
 dmtp==0.3.4
 dnspython==2.3.0
