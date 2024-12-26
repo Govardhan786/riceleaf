@@ -24,3 +24,4 @@ backcall
 basicsr
 torch
 matplotlib
+seaborn
