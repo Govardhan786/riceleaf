@@ -24,5 +24,6 @@ backcall
 basicsr
 torch
 matplotlib
+numpy==1.23.5
 seaborn
 opencv-python-headless==4.5.5.64
