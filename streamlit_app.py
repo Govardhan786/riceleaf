@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix
 import numpy as np
 from PIL import Image
 from ultralytics import YOLO
-
+os.environ['STREAMLIT_SERVER_PORT'] = '8501'
 # Paths to the YOLO models
 model_paths = {
     "YOLOv8.pt": "D:/rice/Models/Models/YOLOv8Best.pt",
