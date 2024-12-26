@@ -10,9 +10,9 @@ from ultralytics import YOLO
 os.environ['STREAMLIT_SERVER_PORT'] = '8501'
 # Paths to the YOLO models
 model_paths = {
-    "YOLOv8.pt": "D:/rice/Models/Models/YOLOv8Best.pt",
-    "YOLOv10.pt": "D:/rice/Models/Models/YOLOv10Best.pt",
-    "YOLOv11.pt": "D:/rice/Models/Models/YOLOv11Best.pt",
+    "YOLOv8.pt": "Models/Models/YOLOv8Best.pt",
+    "YOLOv10.pt": "Models/Models/YOLOv10Best.pt",
+    "YOLOv11.pt": "Models/Models/YOLOv11Best.pt",
 }
 yolov8_folder = 'yolov8'
 yolov10_folder = 'yolov10'
@@ -237,11 +237,11 @@ elif page == "Image Gallery":
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("D:/rice/Models/Models/3.jpg", caption="Bacterial Blight")
+        st.image("Models/Models/3.jpg", caption="Bacterial Blight")
     with col2:
-        st.image("D:/rice/Models/Models/5.jpg", caption="Brown Spot")
+        st.image("Models/Models/5.jpg", caption="Brown Spot")
     with col3:
-        st.image("D:/rice/Models/Models/1.jpg", caption="Rice Blast")
+        st.image("Models/Models/1.jpg", caption="Rice Blast")
 elif page == "Contact Us":
     st.title("📞 Contact Us")
     st.markdown("For inquiries, please contact us at support@riceleafdisease.com.")
