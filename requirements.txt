@@ -23,4 +23,4 @@ babel
 backcall
 basicsr
 torch
-dlib
+dlib==19.24.6 --find-links https://www.lfd.uci.edu/~gohlke/pythonlibs/#dlib
