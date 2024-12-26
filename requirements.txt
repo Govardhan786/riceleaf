@@ -25,5 +25,4 @@ basicsr
 torch
 matplotlib
 seaborn
-opencv-contrib-python
-opencv-python==4.5.5.64
+opencv-contrib-python==4.5.5.64
