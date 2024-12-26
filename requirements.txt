@@ -25,3 +25,4 @@ basicsr
 torch
 matplotlib
 seaborn
+opencv-python
